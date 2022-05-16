@@ -20,5 +20,11 @@
         "path": "./themes/oled-neon-dark.json"
       }
     ]
+  },
+  "__metadata": {
+    "id": "4b6f87dc-807d-4ee0-b287-29cd4e27b0c8",
+    "publisherDisplayName": "Gustavo Inacio",
+    "publisherId": "ce86335d-8290-43e7-b1d9-152ce0c7025b",
+    "isPreReleaseVersion": false
   }
 }
