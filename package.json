@@ -2,6 +2,7 @@
   "name": "oled-neon-theme",
   "displayName": "Oled Neon Theme",
   "description": "A theme for your oled screen",
+  "publisher": "gustavoinacio",
   "repository": "https://github.com/gustavosinacio/vscode-theme-oled-neon",
   "license": "MIT",
   "version": "0.0.1",
