@@ -10,5 +10,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.2]
 
-- adds semantic highlighting to theme
-- adds markdown colors
+- Adds semantic highlighting to theme
+- Adds markdown colors
+
+## [0.0.3]
+
+- Adds Icon to preview
