@@ -16,3 +16,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.3]
 
 - Adds Icon to preview
+
+## [0.0.4]
+
+- changes colors to lowercase
