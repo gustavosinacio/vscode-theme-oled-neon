@@ -1,9 +1,9 @@
 {
   "name": "Oled Neon Theme",
   "colors": {
-    "contrastActiveBorder": "#35e1ff",
+    "contrastActiveBorder": "#00f0ff",
     "contrastBorder": "#111",
-    "focusBorder": "#35e1ff",
+    "focusBorder": "#067",
     "foreground": "#fff",
     "disabledForeground": "#aaa",
     "widget.shadow": "#0ff5",
@@ -11,11 +11,11 @@
     "icon.foreground": "#fff",
     "textLink.foreground": "#09a",
     "toolbar.hoverBackground": "#222",
-    "toolbar.hoverOutline": "#35e1ff",
+    "toolbar.hoverOutline": "#00f0ff",
     "toolbar.activeBackground": "#0ff3",
     "button.background": "#067",
     "button.foreground": "#fff",
-    "button.border": "#35e1ff",
+    "button.border": "#00f0ff",
     "checkbox.background": "#8ac5fb",
     "checkbox.foreground": "#fff",
     "dropdown.background": "#222",
@@ -27,39 +27,40 @@
     "input.foreground": "#fff",
     "input.placeholderForeground": "#777",
     "inputOption.activeBackground": "#067",
-    "inputOption.activeBorder": "#35e1ff",
+    "inputOption.activeBorder": "#00f0ff",
     "inputOption.activeForeground": "#fff",
     "inputOption.hoverBackground": "#067",
-    "scrollbar.shadow": "#35e1ff",
+    "scrollbar.shadow": "#00f0ff",
     "scrollbarSlider.activeBackground": "#067",
     "badge.foreground": "#fff",
     "badge.background": "#067",
-    "progressBar.background": "#35e1ff",
+    "progressBar.background": "#00f0ff",
     "list.activeSelectionBackground": "#0ff3",
     "list.activeSelectionForeground": "#fff",
     "list.dropBackground": "#0ff3",
-    "list.focusOutline": "#0ff3",
+    "list.focusOutline": "#09a",
+    "list.focusBackground": "#0ff3",
     "list.hoverBackground": "#0ff3",
     "list.hoverForeground": "#fff",
-    "list.inactiveSelectionBackground": "#0ff1",
+    "list.inactiveSelectionBackground": "#0ff2",
     "list.inactiveFocusOutline": "#0ff3",
     "list.invalidItemForeground": "#f00",
     "activityBar.background": "#000",
-    "activityBar.dropBorder": "#35e1ff",
-    "activityBar.foreground": "#35e1ff",
+    "activityBar.dropBorder": "#00f0ff",
+    "activityBar.foreground": "#00f0ff",
     "activityBar.inactiveForeground": "#067",
     "activityBar.border": "#222",
     "activityBarBadge.background": "#067",
     "activityBarBadge.foreground": "#fff",
-    "activityBar.activeBorder": "#35e1ff",
+    "activityBar.activeBorder": "#00f0ff",
     "activityBar.activeBackground": "#111",
-    "activityBar.activeFocusBorder": "#35e1ff",
+    "activityBar.activeFocusBorder": "#00f0ff",
     "sideBar.background": "#000",
     "sideBar.foreground": "#fff",
     "sideBar.border": "#111",
     "sideBar.dropBackground": "#0ff3",
     "sideBarTitle.foreground": "#fff",
-    "sideBarSectionHeader.background": "#0ff1",
+    "sideBarSectionHeader.background": "#0ff2",
     "sideBarSectionHeader.foreground": "#fff",
     "sideBarSectionHeader.border": "#111",
     "editorWidget.foreground": "#fff",
@@ -74,7 +75,7 @@
     "gitDecoration.modifiedResourceForeground": "#55e0ff",
     "editor.foreground": "#fff",
     "editor.background": "#000",
-    "editorLineNumber.activeForeground": "#35e1ff",
+    "editorLineNumber.activeForeground": "#00f0ff",
     "statusBar.background": "#000",
     "sidePanel.background": "#000",
     "panel.background": "#000"
@@ -92,7 +93,7 @@
         "entity.name.section",
         "constant.language.import-export-all"
       ],
-      "settings": { "foreground": "#35e1ff", "fontStyle": "" }
+      "settings": { "foreground": "#00f0ff", "fontStyle": "" }
     },
     {
       "scope": [
@@ -123,8 +124,16 @@
       "settings": { "foreground": "#00f0c0", "fontStyle": "" }
     },
     {
-      "scope": ["entity.name.function"],
+      "scope": ["entity.name.function", "punctuation.definition.bold.markdown"],
       "settings": { "foreground": "#50fa7b", "fontStyle": "" }
+    },
+    {
+      "scope": ["markup.italic.markdown"],
+      "settings": { "foreground": "#50fa7b", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["markup.bold.markdown"],
+      "settings": { "foreground": "#50fa7b", "fontStyle": "bold" }
     },
     {
       "scope": [

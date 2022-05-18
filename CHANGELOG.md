@@ -20,3 +20,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.4]
 
 - changes colors to lowercase
+
+## [0.0.5]
+
+- color adjustments
+
+## [0.0.6]
+
+- color adjustments
